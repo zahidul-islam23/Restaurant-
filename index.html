@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious - Premium Food Experience</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="https://via.placeholder.com/150x50" alt="Delicious Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#specials">Specials</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="menu-btn">
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Experience the Art of Fine Dining</h1>
+        <p>Discover our chef's specially curated menu featuring the finest ingredients</p>
+        <div class="hero-buttons">
+            <button class="btn-primary">View Menu</button>
+            <button class="btn-secondary">Book a Table</button>
+        </div>
+    </div>
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=1310&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fine Dining">
+    </div>
+</section>
+
+    <!-- Featured Categories -->
+    <section class="categories" id="menu">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Our Menu Categories</h2>
+            <div class="category-grid">
+                <div class="category-card" data-aos="fade-up">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?w=400" alt="Appetizers">
+                    </div>
+                    <h3>Appetizers</h3>
+                    <p>Start your meal right</p>
+                </div>
+                <div class="category-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=400" alt="Main Course">
+                    </div>
+                    <h3>Main Course</h3>
+                    <p>Signature dishes</p>
+                </div>
+                <div class="category-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400" alt="Desserts">
+                    </div>
+                    <h3>Desserts</h3>
+                    <p>Sweet endings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Chef's Special -->
+     <section class="specials" id="specials">
+        <div class="container">
+            <h2 class="section-title">Chef's Special</h2>
+            <div class="specials-grid">
+                <div class="special-card">
+                    <div class="special-image">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="Grilled Ribeye Steak">
+                    </div>
+                    <div class="special-content">
+                        <h3>Grilled Ribeye Steak</h3>
+                        <p>Premium cut ribeye steak grilled to perfection with herb butter</p>
+                        <button class="btn-order">Order Now</button>
+                    </div>
+                </div>
+                <div class="special-card">
+                    <div class="special-image">
+                        <img src="https://images.unsplash.com/photo-1485921325833-c519f76c4927" alt="Grilled Salmon">
+                    </div>
+                    <div class="special-content">
+                        <h3>Grilled Salmon</h3>
+                        <p>Fresh Atlantic salmon with lemon herb sauce</p>
+                        <button class="btn-order">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Story -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Experience culinary excellence at its finest. Our passionate chefs create memorable dining experiences with the freshest ingredients.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Fresh Ingredients</li>
+                        <li><i class="fas fa-check"></i> Expert Chefs</li>
+                        <li><i class="fas fa-check"></i> Perfect Ambiance</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9" alt="Restaurant Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> 123 Gourmet Street, Foodie City</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-envelope"></i> info@delicious.com</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://via.placeholder.com/150x50" alt="Delicious Logo">
+                    <p>Premium Food Experience</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Delicious. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-total">
+            <span>Total:</span>
+            <span class="total-amount">$0.00</span>
+        </div>
+        <button class="btn-checkout">Checkout</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
